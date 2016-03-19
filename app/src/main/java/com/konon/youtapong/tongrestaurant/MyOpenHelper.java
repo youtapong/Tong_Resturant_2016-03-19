@@ -17,8 +17,8 @@ public class MyOpenHelper extends SQLiteOpenHelper{
             "Password text," +
             "Name text);";
     private static final String creat_food_table = "create table foodTable(" +
-            "_id inter primary key," +
-            "Food test," +
+            "_id interger primary key," +
+            "Food text," +
             "Price text," +
             "Source text);";
 
